@@ -95,7 +95,7 @@ footer {
 
 .cont {
     text-align: center;
-    margin: 15px;
+    margin: 0px 15px;
 
 }
 
@@ -116,4 +116,10 @@ footer {
 
 .cont.freccina #freccia {
     margin-left: 10px;
+}
+
+.button.destra {
+    color: rgb(223, 85, 85);
+    padding: 0px 20px;
+    border-radius: 0;
 }

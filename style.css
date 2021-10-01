@@ -20,12 +20,6 @@
     margin-right: 5px;
 }
 
-
-
-
-
-
-
 body {
     background: black;
     color: white;
@@ -36,17 +30,48 @@ body {
 }
 
 
-
 /* HEADER */
 header {
     background-color: #222;
     text-align: right;
-
 }
 
 
 main {
     flex-grow: 1;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.gallery li {
+    width: 320px;
+    margin: 5px;
+
+}
+
+.card {
+    height: 150px;
+    background-color: tomato;
+    position: relative;
+}
+
+.card img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;  
+}
+
+.card .nome {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.7);
 }
 
 footer {

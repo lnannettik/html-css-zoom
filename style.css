@@ -85,3 +85,35 @@ footer {
     justify-content: space-between;
     flex-direction: row;
 }
+
+.sinistra, .centrale {
+    display: flex;
+    list-style: none;
+    padding: 5px;
+
+}
+
+.cont {
+    text-align: center;
+    margin: 15px;
+
+}
+
+.cont .icon {
+    display: block;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.verde {
+    color: #4fc400;
+}
+
+.cont.freccina {
+    display: flex;
+    align-items: center;
+}
+
+.cont.freccina #freccia {
+    margin-left: 10px;
+}
